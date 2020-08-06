@@ -7,7 +7,7 @@ use rocksdb::{
 
 fn main() {
     println!("Hello, world!");
-    let path = std::path::Path::new("/tmp/disable_thread");
+    let path = std::path::Path::new("/tmp/disable_thread2∂");
 
     // create new options
     let mut opts = Options::default();
