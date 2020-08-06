@@ -30,6 +30,8 @@ fn main() {
     env.set_bottom_priority_background_threads(0);
     env.set_high_priority_background_threads(0);
     env.set_low_priority_background_threads(0);
+    env.set_background_threads(0);
+    println!("done disable all threads");
     // write a lot
     let mut batch = WriteBatch::default();
     for i in 0..1_00000000 {
